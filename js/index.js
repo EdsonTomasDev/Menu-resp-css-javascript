@@ -1,8 +1,8 @@
 function ativa_menu(){
-    const obj = document.querySelector('#home_h2');
+    const obj = document.querySelector('#lista_menu');
     const classes = obj.classList;
    
 
-    classes.toggle('verde');
+    classes.toggle('menu_lista-ativa');
 
 }

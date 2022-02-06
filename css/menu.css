@@ -32,8 +32,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
 
 }
+
+.menu_lista-ativa {
+    transform: translateX(0);
+}
+
 
 .menu_lista li {
     list-style: none;
