@@ -2,6 +2,9 @@
     background: #000;
     width: 100vw;
     height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .logo {
@@ -9,3 +12,15 @@
     font-size: 32px;
     color: #fff;
 }
+
+.menu_barras {
+    
+}
+
+.menu_barras div {
+    height: 2px;
+    width: 32px;
+    background: #fff;
+    margin: 8px;
+}
+
