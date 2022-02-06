@@ -23,4 +23,23 @@
     background: #fff;
     margin: 8px;
 }
+.menu_lista {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 50vw;
+    background:#000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
+
+.menu_lista li {
+    list-style: none;
+    
+}
+
+.menu_lista li a{
+    color: #fff;
+}
