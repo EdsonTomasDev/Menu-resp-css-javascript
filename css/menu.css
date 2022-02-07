@@ -58,7 +58,8 @@
 /* ANIMAÇÃO DO ITEM DA LISTA */
 .anima_link {
     animation-name: item_lista;
-    animation-duration: 4s;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-in-out;
   }
 
 @keyframes item_lista {
