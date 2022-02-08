@@ -10,19 +10,22 @@ function ativa_menu(){
     //Percorre os links e adiciona a classe com a animação
     for(i=1; i <= filhos; i++){
 
+        //Variável que armazena o nome do id, ex. menu_link1, menu_link2 etc...
         let id_nome = 'menu_link' + i;
         const obj_link = document.querySelector('#' + id_nome);
         const classes_link = obj_link.classList;
         classes_link.toggle('anima_link');
 
     }
-
-   
-
+    //executar();
 //    alert(filhos);
     
-   
+    
 
 }
 
-//menu_lista_link4
+
+//Seleciona o atributo da div que contém as barras
+const botao = document.querySelector('[ativar-menu]');
+//Adiciona o evento click para chamar a função ativa_menu
+botao.addEventListener('click', ativa_menu);
