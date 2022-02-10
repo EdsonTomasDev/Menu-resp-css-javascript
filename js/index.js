@@ -15,10 +15,24 @@ function ativa_menu(){
         const obj_link = document.querySelector('#' + id_nome);
         const classes_link = obj_link.classList;
         classes_link.toggle('anima_link');
+        
+        if (classes_link.contains('anima_link')){
+            
+            // alert('contém');
+            obj_link.style.animation  = "item_lista 4.5s ease-in-out";
+
+        }else{
+            // alert('não contém');
+            obj_link.style.animation  = "unset";
+        }
+
+       
 
     }
     //executar();
 //    alert(filhos);
+
+   
     
     
 
